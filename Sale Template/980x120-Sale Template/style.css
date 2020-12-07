@@ -1,0 +1,119 @@
+.creative-size{
+    width: 980px;
+    height: 120px;
+}
+
+@font-face {
+    font-family: SpecsaversWeb-Regular;
+    src: url("./assets/SpecsaversWeb-Regular.woff2") format("woff2"), url("./assets/SpecsaversWeb-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SpecsaversWeb-Medium;
+    src: url("./assets/SpecsaversWeb-Medium.woff2") format("woff2"), url("./assets/SpecsaversWeb-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SpecsaversWeb-Bold;
+    src: url("./assets/SpecsaversWeb-Bold.woff2") format("woff2"), url("./assets/SpecsaversWeb-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family: "SpecsaversWeb-Medium";
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+}
+
+sup{
+    line-height: 0;
+     position: relative;
+     vertical-align: super;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo-wrapper {
+    position: absolute;
+    margin: auto 0;
+    height: 37px;
+    width: 109px;
+    left: 30px;
+    bottom: 0;
+    top:0;
+}
+
+.copy-wrapper {
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    bottom: 0px;
+    width: 206px;
+    right:164px;
+    height: 100% !important;
+}
+
+.copy-wrapper>div {
+    width: 100%;
+}
+
+.copy-wrapper>div>div {
+    position: relative;
+    padding: 0 15px;
+    display: flex;
+    align-items: end;
+}
+
+.cta-btn {
+    font-family: "SpecsaversWeb-Medium";
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    margin: auto 0;
+    display: flex;
+    width: 134px;
+    height: 37px;
+    bottom: 0px;
+    right: 30px;
+    top:0px;
+}
+
+.copy-wrapper>div>div:first-child{
+    margin-top:0 !important;
+}
+
+.tap-area{
+    position: absolute;
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
