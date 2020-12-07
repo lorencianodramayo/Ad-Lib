@@ -53,7 +53,7 @@ var defaultValues = {
     customVariable: "Medium, Bold, N/A",
     customVariable2: "Medium, Bold, N/A",
     customVariable3: "Medium, Bold, N/A",
-    cssAttrib: ".copy-wrapper{height: 146px;} ",
+    cssAttrib: "/*custom css*/",
     landingPage: "https://www.specsavers.com/",
     startDate: " ",
     endDate: " ",

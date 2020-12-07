@@ -67,7 +67,7 @@ sup{
     position: absolute;
     flex-wrap: wrap;
     display: flex;
-    height: auto;
+    height: 108px !important;
     bottom: 40px;
     width: 545px;
     left: 0;
