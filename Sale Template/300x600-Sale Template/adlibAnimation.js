@@ -49,13 +49,13 @@ function animation(){
         
         //end frame 1
         if (defaultValues.frame1Headline.toLowerCase() != "n/a") {
-            tl.to("#frame1-headline1", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "+=2.5")
+            tl.to("#frame1-headline1", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "+=2.5")
         }
         if (defaultValues.frame1Headline2.toLowerCase() != "n/a") {
-            tl.to("#frame1-headline2", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame1-headline2", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
         if (defaultValues.frame1Headline3.toLowerCase() != "n/a") {
-            tl.to("#frame1-headline3", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame1-headline3", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
     }
 
@@ -88,13 +88,13 @@ function animation(){
 
         //end frame 2
         if (defaultValues.frame2Headline.toLowerCase() != "n/a") {
-            tl.to("#frame2-headline1", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "+=2.5")
+            tl.to("#frame2-headline1", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "+=2.5")
         }
         if (defaultValues.frame2Headline2.toLowerCase() != "n/a") {
-            tl.to("#frame2-headline2", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame2-headline2", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
         if (defaultValues.frame2Headline3.toLowerCase() != "n/a") {
-            tl.to("#frame2-headline3", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame2-headline3", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
     }
     //start frame 3
@@ -113,13 +113,13 @@ function animation(){
             .to("#cta-wrapper", 0.1, { y: 0, ease: "endAnimation", force3D: true, onComplete: getEnd, onCompleteParams: ["frame3"] })
         //end frame 3
         if (defaultValues.frame3Headline.toLowerCase() != "n/a") {
-            tl.to("#frame3-headline1", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "+=2.5")
+            tl.to("#frame3-headline1", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "+=2.5")
         }
         if (defaultValues.frame3Headline2.toLowerCase() != "n/a") {
-            tl.to("#frame3-headline2", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame3-headline2", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
         if (defaultValues.frame3Headline3.toLowerCase() != "n/a") {
-            tl.to("#frame3-headline3", 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true }, "-=0.8")
+            tl.to("#frame3-headline3", 1, { opacity: 0, x: 100, ease: "endAnimation", force3D: true }, "-=0.8")
         }
     }
     tl.to(["#cta-wrapper", "#finalcall-wrapper"], 1, { opacity: 0, x: -100, ease: "endAnimation", force3D: true, onComplete: () => { _loopCount++ } }, "-=0.8")

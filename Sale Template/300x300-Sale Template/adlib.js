@@ -27,7 +27,7 @@ window.gwd = {
 
 var defaultValues = {
     animationType: "frame1",
-    logo: "./assets/specsavers_160x600.png",
+    logo: "./assets/specsavers_300x300.png",
     frame1Headline: "Lorem ipsum dolor sit amet consetetur sadipscing elitrvero eos",
     frame1Headline2: "100",
     frame1Headline3: "N/A",
@@ -37,8 +37,8 @@ var defaultValues = {
     frame3Headline: "Lorem ipsum dolor sit amet consetetur sadipscing elitrvero eos",
     frame3Headline2: "80",
     frame3Headline3: "N/A",
-    baseImage: "./assets/udsalg_160x600.png",
-    baseImage2: "./assets/160x600-static_curve.jpg",
+    baseImage: "./assets/udsalg_300x300.png",
+    baseImage2: "./assets/300x300-static_curve.jpg",
     currency: "kr.",
     ctaText: "CTA",
     ctaText2: "Final Call",

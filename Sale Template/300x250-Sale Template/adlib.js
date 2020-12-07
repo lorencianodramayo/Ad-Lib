@@ -27,18 +27,18 @@ window.gwd = {
 
 var defaultValues = {
     animationType: "frame1",
-    logo: "./assets/specsavers_160x600.png",
-    frame1Headline: "Lorem ipsum dolor sit amet consetetur sadipscing elitrvero eos",
+    logo: "./assets/specsavers_300x250.png",
+    frame1Headline: "Lorem ipsum dolor sit amet consetetur",
     frame1Headline2: "100",
     frame1Headline3: "N/A",
-    frame2Headline: "Lorem ipsum dolor sit amet consetetur sadipscing elitrvero eos",
+    frame2Headline: "Lorem ipsum dolor sit amet consetetur",
     frame2Headline2: "90",
     frame2Headline3: "N/A",
-    frame3Headline: "Lorem ipsum dolor sit amet consetetur sadipscing elitrvero eos",
+    frame3Headline: "Lorem ipsum dolor sit amet consetetur",
     frame3Headline2: "80",
     frame3Headline3: "N/A",
-    baseImage: "./assets/udsalg_160x600.png",
-    baseImage2: "./assets/160x600-static_curve.jpg",
+    baseImage: "./assets/udsalg_300x250.png",
+    baseImage2: "./assets/300x250-static_curve.jpg",
     currency: "kr.",
     ctaText: "CTA",
     ctaText2: "Final Call",
@@ -164,7 +164,7 @@ function enablerInitHandler(){
 function customContainer(){
     document.querySelectorAll(".copy-wrapper div div").forEach(function (e) {
         e.style.height = `${e.offsetHeight - 11}px`;
-        e.style.marginTop = `${(e.offsetHeight > 0)? "15px" : "0px"}`;
+        e.style.marginTop = `${(e.offsetHeight > 0)? "10px" : "0px"}`;
     });
 
     //get max heigh of all copy wrappers
