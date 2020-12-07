@@ -75,7 +75,6 @@ sup{
 .copy-wrapper>div {
     width: 100%;
     display: flex;
-    justify-content: center;
 }
 
 .copy-wrapper>div>div {
@@ -103,6 +102,7 @@ sup{
 
 .copy-wrapper>div>div:first-child{
     padding-right:0 ;
+    margin-top: 0.5em;
 }
 
 .tap-area{

@@ -78,7 +78,7 @@ sup{
 
 .copy-wrapper>div>div {
     position: relative;
-    padding: 0 15px;
+    padding: 0 12px;
     display: flex;
     align-items: end;
 }

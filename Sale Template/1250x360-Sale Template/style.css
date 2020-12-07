@@ -69,7 +69,7 @@ sup{
     display: flex;
     height: 108px !important;
     bottom: 40px;
-    width: 545px;
+    width: 730px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -77,7 +77,7 @@ sup{
 
 .copy-wrapper>div {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
 }
 
