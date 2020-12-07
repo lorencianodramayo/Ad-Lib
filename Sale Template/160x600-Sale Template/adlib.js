@@ -138,7 +138,26 @@ function populate(){
 function enablerInitHandler(){
     initDynamic();
     populate.call(defaultValues);
-    animation();
+    //load image first
+    Promise.all(Array.from(document.images).map(img => {
+        if (img.complete)
+            if (img.naturalHeight !== 0)
+                return Promise.resolve();
+            else
+                return Promise.reject(img);
+        return new Promise((resolve, reject) => {
+            img.addEventListener('load', resolve);
+            img.addEventListener('error', () => reject(img));
+        });
+    })).then(() => {
+        //before animation
+        gsap.set(".image-wrapper", { opacity: 1 });
+        setTimeout(animation, 1000);
+    }, badImg => {
+        console.log('some image failed to load, others may still be loading');
+        console.log('first broken image:', badImg);
+    });
+    
 
     var event = new CustomEvent("adinitialized");
     document.dispatchEvent(event);

@@ -12,8 +12,6 @@ gsap.set("#finalcall-wrapper", { opacity: 0 });
 function animation(){
     adlibStart();
     tl.play()
-      .to(".image-wrapper", 0, { opacity: 1 })
-
       if (defaultValues.frame1Headline.toLowerCase() != "n/a") {
         tl.to("#frame1-headline1", 1, { opacity: 1, x: 0, ease: "startAnimation", force3D: true })
 
