@@ -1,6 +1,6 @@
 .creative-size{
-    width: 580px;
-    height: 400px;
+    width: 980px;
+    height: 300px;
 }
 
 @font-face {
@@ -54,11 +54,12 @@ sup{
 
 #logo-wrapper {
     position: absolute;
-    margin: 0 auto;
-    height: 52px;
-    width: 136px;
-    bottom: 25px;
-    right: 25px;
+    margin: auto 0;
+    height: 50px;
+    width: 150px;
+    bottom: 0px;
+    top:0px;
+    right: 27px;
 }
 
 .copy-wrapper {
@@ -67,15 +68,17 @@ sup{
     flex-wrap: wrap;
     display: flex;
     height: auto;
-    bottom: 82px;
-    width: 100%;
-    margin-bottom: 20px;
+    bottom: 40px;
+    width: 545px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .copy-wrapper>div {
     width: 100%;
-    display: flex;
     justify-content: center;
+    display: flex;
 }
 
 .copy-wrapper>div>div {
@@ -95,10 +98,12 @@ sup{
     display: flex;
     width: 190px;
     height: 52px;
-    bottom: 25px;
-    left: 25px;
+    left: 27px;
+    bottom: 0;
+    top: 0;
     font-family: "SpecsaversWeb-Medium";
     font-size: 20px;
+    margin: auto 0;
 }
 
 .copy-wrapper>div>div:first-child{

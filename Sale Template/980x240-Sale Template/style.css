@@ -1,6 +1,6 @@
 .creative-size{
-    width: 580px;
-    height: 400px;
+    width: 980px;
+    height: 240px;
 }
 
 @font-face {
@@ -54,55 +54,54 @@ sup{
 
 #logo-wrapper {
     position: absolute;
-    margin: 0 auto;
-    height: 52px;
-    width: 136px;
-    bottom: 25px;
-    right: 25px;
+    margin: auto 0;
+    height: 50px;
+    width: 130px;
+    left: 27px;
+    bottom: 0;
+    top:0;
 }
 
 .copy-wrapper {
-    align-items: flex-start;
+    align-items: center;
     position: absolute;
     flex-wrap: wrap;
     display: flex;
     height: auto;
-    bottom: 82px;
-    width: 100%;
-    margin-bottom: 20px;
+    bottom: 0px;
+    width: 206px;
+    right:164px;
+    height: 100% !important;
 }
 
 .copy-wrapper>div {
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .copy-wrapper>div>div {
     position: relative;
-    padding: 0 25px;
-    display: inline-flex;
+    padding: 0 15px;
+    display: flex;
     align-items: end;
-    width: auto;
-    float: left;
 }
 
 .cta-btn {
-    position: absolute;
+    font-family: "SpecsaversWeb-Medium";
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    position: absolute;
+    margin: auto 0;
     display: flex;
-    width: 190px;
-    height: 52px;
-    bottom: 25px;
-    left: 25px;
-    font-family: "SpecsaversWeb-Medium";
-    font-size: 20px;
+    width: 134px;
+    height: 37px;
+    bottom: 0px;
+    right: 27px;
+    top:0px;
 }
 
 .copy-wrapper>div>div:first-child{
-    padding-right:0 ;
+    margin-top:0 !important;
 }
 
 .tap-area{

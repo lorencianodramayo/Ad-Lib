@@ -1,5 +1,5 @@
 .creative-size{
-    width: 580px;
+    width: 980px;
     height: 400px;
 }
 
@@ -62,14 +62,14 @@ sup{
 }
 
 .copy-wrapper {
-    align-items: flex-start;
+    align-items: center;
     position: absolute;
     flex-wrap: wrap;
     display: flex;
-    height: auto;
-    bottom: 82px;
+    height: 135px !important;
+    bottom: 77px;
     width: 100%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .copy-wrapper>div {
