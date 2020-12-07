@@ -27,33 +27,33 @@ window.gwd = {
 
 var defaultValues = {
     animationType: "frame1",
-    logo: "./assets/specsavers_980x400.png",
-    frame1Headline: "Lorem ipsum dolor<br>sit amet consetetur",
+    logo: "./assets/specsavers_930x180.png",
+    frame1Headline: "Lorem ipsum dolor sit amet",
     frame1Headline2: "100",
     frame1Headline3: "N/A",
-    frame2Headline: "Lorem ipsum dolor<br>sit amet consetetur",
+    frame2Headline: "Lorem ipsum dolor sit amet",
     frame2Headline2: "90",
     frame2Headline3: "N/A",
-    frame3Headline: "Lorem ipsum dolor<br>sit amet consetetur",
+    frame3Headline: "Lorem ipsum dolor sit amet",
     frame3Headline2: "80",
     frame3Headline3: "N/A",
-    baseImage: "./assets/udsalg_980x400.png",
-    baseImage2: "./assets/980x400-static_curve.jpg",
+    baseImage: "./assets/udsalg_930x180.png",
+    baseImage2: "./assets/930x180-static_curve.jpg",
     currency: "kr.",
     ctaText: "CTA",
     ctaText2: "Final Call",
     ctaColor1: "Racing",
     ctaColor2: "Orange",
-    fontSize1: "30, 70, 0",
-    fontSize2: "30, 70, 0",
-    fontSize3: "30, 70, 0",
+    fontSize1: "18, 53, 0",
+    fontSize2: "18, 53, 0",
+    fontSize3: "18, 53, 0",
     fontColor1: "#666666, Racing, N/A",
     fontColor2: "#666666, Racing, N/A",
     fontColor3: "#666666, Racing, N/A",
     customVariable: "Medium, Bold, N/A",
     customVariable2: "Medium, Bold, N/A",
     customVariable3: "Medium, Bold, N/A",
-    cssAttrib: ".copy-wrapper{height: 90px;} ",
+    cssAttrib: "/*custom css*/",
     landingPage: "https://www.specsavers.com/",
     startDate: " ",
     endDate: " ",
@@ -162,10 +162,10 @@ function enablerInitHandler(){
 }
 //Auto height
 function customContainer(){
-    // document.querySelectorAll(".copy-wrapper div div").forEach(function (e) {
-    //     e.style.height = `${e.offsetHeight - 11}px`;
-    //     e.style.marginTop = `${(e.offsetHeight > 0)? "10px" : "0px"}`;
-    // });
+    document.querySelectorAll(".copy-wrapper div div").forEach(function (e) {
+        e.style.height = `${e.offsetHeight - 11}px`;
+        e.style.marginTop = `${(e.offsetHeight > 0)? "10px" : "0px"}`;
+    });
 
     //get max heigh of all copy wrappers
     document.querySelectorAll(".copy-wrapper").forEach(function(e) {
